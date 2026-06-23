@@ -74,7 +74,7 @@ section{
 .card textarea:focus {
     outline: none;
     border-color: #8a3fc4;
-    box-shadow: 0 0 5px rgba(138, 63, 196, 0.5);
+    box-shadow: 0 0 5px rgba(232, 218, 244, 0.5);
 }
 
 .card .btn-secondary {
