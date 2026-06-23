@@ -24,7 +24,7 @@ header {
     margin-top: 90px;
 }
 
-.card.text-center{
+.card .text-center{
     margin-top: 20px;
     background-color: #be7fe7;
 
@@ -39,12 +39,24 @@ header {
     background-color: #be7fe7;
     color: #060606;
 }
-.card {
-    background-color: #be7fe7;
-    border: none;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(15, 15, 15, 0.2);
+.card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+    transition:.3s;
+    background-color: rgba(138, 63, 196, 0.5)
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+
+img{
+    border-radius:20px;
+}
+
+section{
+    padding-top:80px;
+    padding-bottom:80px;
 }
 
 .card input,
@@ -54,8 +66,8 @@ header {
     border: 1px solid #d8b4f0;
     border-radius: 8px;
     margin-bottom: 15px;
-    background-color: #be7fe7;
-    color: #f0eeee;
+    background-color: #e2c6dd;
+    color: #040404;
 }
 
 .card input:focus,
@@ -75,4 +87,32 @@ header {
 
 .card .btn-secondary:hover {
     background-color: #7330a8;
+}
+
+.redes-sociales a{
+    color: #cbd5e1;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.redes-sociales a:hover{
+    color: #d4af37;
+}
+
+.whatsapp-float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:25px;
+    right:25px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    text-align:center;
+    line-height:60px;
+    font-size:30px;
+    text-decoration:none;
+    z-index:999;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
 }
